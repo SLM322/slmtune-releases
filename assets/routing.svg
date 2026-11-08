@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="560" viewBox="0 0 1200 560" font-family="Segoe UI, Inter, Helvetica, Arial, sans-serif">
+  <defs>
+    <linearGradient id="acc" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#D100D1"/>
+      <stop offset="1" stop-color="#FF3DFF"/>
+    </linearGradient>
+    <marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#6E6E78"/>
+    </marker>
+    <marker id="arrA" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#FF3DFF"/>
+    </marker>
+  </defs>
+  <rect width="1200" height="560" rx="24" fill="#0B0B0D"/>
+
+  <text x="56" y="70" font-size="30" font-weight="700" fill="#F2F2F5">Как идёт трафик</text>
+  <text x="56" y="104" font-size="18" fill="#A6A6B0">Каждое соединение проходит правила sing-box и уходит одним из трёх путей</text>
+
+  <!-- apps -->
+  <rect x="56" y="196" width="200" height="190" rx="16" fill="#151518" stroke="#26262c"/>
+  <text x="156" y="236" font-size="20" font-weight="600" fill="#F2F2F5" text-anchor="middle">Программы</text>
+  <g font-size="16" fill="#A6A6B0" text-anchor="middle">
+    <text x="156" y="272">браузер, Telegram</text>
+    <text x="156" y="298">игры, Discord</text>
+    <text x="156" y="324">ChatGPT, Cursor</text>
+    <text x="156" y="350">всё остальное</text>
+  </g>
+
+  <!-- front -->
+  <line x1="256" y1="291" x2="338" y2="291" stroke="#6E6E78" stroke-width="2.5" marker-end="url(#arr)"/>
+  <rect x="344" y="176" width="300" height="230" rx="18" fill="#1a0b1a" stroke="#4a124a"/>
+  <text x="494" y="216" font-size="15" font-weight="700" fill="#FF3DFF" text-anchor="middle" letter-spacing="1.5">TUN · SING-BOX</text>
+  <g font-size="17" fill="#D8D8E0">
+    <text x="372" y="256">1  Блокировка рекламы</text>
+    <text x="372" y="286">2  Правила программ</text>
+    <text x="372" y="316">3  ИИ, игры, звонки</text>
+    <text x="372" y="346">4  Пресет: страна, списки</text>
+    <text x="372" y="376">5  DNS через VPN</text>
+  </g>
+
+  <!-- three routes -->
+  <path d="M644 230 C 700 230, 720 160, 772 160" fill="none" stroke="#FF3DFF" stroke-width="3" marker-end="url(#arrA)"/>
+  <path d="M644 291 C 700 291, 720 291, 772 291" fill="none" stroke="#6E6E78" stroke-width="2.5" marker-end="url(#arr)"/>
+  <path d="M644 352 C 700 352, 720 422, 772 422" fill="none" stroke="#6E6E78" stroke-width="2.5" marker-end="url(#arr)"/>
+
+  <rect x="780" y="120" width="364" height="84" rx="14" fill="#2E0B2E" stroke="#5a165a"/>
+  <text x="804" y="156" font-size="20" font-weight="600" fill="#F2F2F5">Через VPN</text>
+  <text x="804" y="184" font-size="16" fill="#D8D8E0">ядро → каскад → ваш сервер → интернет</text>
+
+  <rect x="780" y="250" width="364" height="84" rx="14" fill="#151518" stroke="#26262c"/>
+  <text x="804" y="286" font-size="20" font-weight="600" fill="#F2F2F5">Напрямую</text>
+  <text x="804" y="314" font-size="16" fill="#A6A6B0">российские сайты, локальная сеть, загрузки</text>
+
+  <rect x="780" y="380" width="364" height="84" rx="14" fill="#151518" stroke="#3b1820"/>
+  <text x="804" y="416" font-size="20" font-weight="600" fill="#FF5C7A">Блок</text>
+  <text x="804" y="444" font-size="16" fill="#A6A6B0">реклама, трекеры, телеметрия</text>
+
+  <!-- kill switch band -->
+  <rect x="56" y="490" width="1088" height="44" rx="12" fill="#151518" stroke="#26262c"/>
+  <circle cx="84" cy="512" r="7" fill="#34D399"/>
+  <text x="102" y="518" font-size="17" fill="#D8D8E0">Kill switch: если VPN оборвался, брандмауэр Windows закрывает выход в интернет, пока туннель не вернётся</text>
+</svg>

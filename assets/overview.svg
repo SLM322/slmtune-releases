@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="860" viewBox="0 0 1200 860" font-family="Segoe UI, Inter, Helvetica, Arial, sans-serif">
+  <defs>
+    <linearGradient id="acc" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#D100D1"/>
+      <stop offset="1" stop-color="#FF3DFF"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.85" cy="0" r="0.9">
+      <stop offset="0" stop-color="#3a0a3a"/>
+      <stop offset="1" stop-color="#0B0B0D" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1200" height="860" rx="24" fill="#0B0B0D"/>
+  <rect width="1200" height="860" rx="24" fill="url(#glow)"/>
+
+  <!-- header -->
+  <text x="56" y="92" font-size="52" font-weight="700" fill="#F2F2F5">SLMtune</text>
+  <rect x="290" y="56" width="132" height="42" rx="21" fill="#2E0B2E"/>
+  <text x="356" y="84" font-size="20" font-weight="600" fill="#FF99FF" text-anchor="middle">4.1 beta</text>
+  <text x="56" y="136" font-size="22" fill="#A6A6B0">VPN-клиент для Windows: ядра, маршруты, защита и свой сервер в одном окне</text>
+  <rect x="56" y="160" width="220" height="4" rx="2" fill="url(#acc)"/>
+
+  <!-- row 1 -->
+  <g>
+    <rect x="56" y="196" width="348" height="290" rx="18" fill="#1a0b1a" stroke="#4a124a"/>
+    <text x="80" y="236" font-size="15" font-weight="700" fill="#FF3DFF" letter-spacing="1.5">7 ЯДЕР</text>
+    <text x="80" y="272" font-size="24" font-weight="600" fill="#F2F2F5">Ядро под каждый протокол</text>
+    <g font-size="18" fill="#D8D8E0">
+      <text x="80" y="314">sing-box · Xray · mihomo</text>
+      <text x="80" y="344">TrustTunnel (AdGuard)</text>
+      <text x="80" y="374">Hysteria 2 · NaiveProxy</text>
+      <text x="80" y="404">Tor с мостами</text>
+    </g>
+    <text x="80" y="452" font-size="15" fill="#8E8E98">Скачиваются с GitHub, сверка SHA-256</text>
+  </g>
+  <g>
+    <rect x="426" y="196" width="348" height="290" rx="18" fill="#151518" stroke="#26262c"/>
+    <text x="450" y="236" font-size="15" font-weight="700" fill="#FF3DFF" letter-spacing="1.5">20+ ПРОТОКОЛОВ</text>
+    <text x="450" y="272" font-size="24" font-weight="600" fill="#F2F2F5">Любая ссылка открывается</text>
+    <g font-size="18" fill="#D8D8E0">
+      <text x="450" y="314">VLESS Reality · XHTTP · VMess</text>
+      <text x="450" y="344">Trojan · Shadowsocks · ShadowTLS</text>
+      <text x="450" y="374">Hysteria2 · TUIC · AnyTLS · Naive</text>
+      <text x="450" y="404">WireGuard · AmneziaWG · WARP</text>
+    </g>
+    <text x="450" y="452" font-size="15" fill="#8E8E98">Буфер, QR с экрана, slmtune://, подписки</text>
+  </g>
+  <g>
+    <rect x="796" y="196" width="348" height="290" rx="18" fill="#151518" stroke="#26262c"/>
+    <text x="820" y="236" font-size="15" font-weight="700" fill="#FF3DFF" letter-spacing="1.5">ЗАЩИТА</text>
+    <text x="820" y="272" font-size="24" font-weight="600" fill="#F2F2F5">Без утечек мимо VPN</text>
+    <g font-size="18" fill="#D8D8E0">
+      <text x="820" y="314">Kill switch на брандмауэре</text>
+      <text x="820" y="344">Реклама и трекеры — блок</text>
+      <text x="820" y="374">DNS через VPN, без IPv6-утечек</text>
+      <text x="820" y="404">Режим стримера</text>
+    </g>
+    <text x="820" y="452" font-size="15" fill="#8E8E98">Держится, даже если программа упала</text>
+  </g>
+
+  <!-- row 2 -->
+  <g>
+    <rect x="56" y="508" width="348" height="290" rx="18" fill="#151518" stroke="#26262c"/>
+    <text x="80" y="548" font-size="15" font-weight="700" fill="#FF3DFF" letter-spacing="1.5">МАРШРУТЫ</text>
+    <text x="80" y="584" font-size="24" font-weight="600" fill="#F2F2F5">VPN только для нужного</text>
+    <g font-size="18" fill="#D8D8E0">
+      <text x="80" y="626">Пресеты: всё, кроме РФ, только блок</text>
+      <text x="80" y="656">ИИ через VPN: 180+ сервисов</text>
+      <text x="80" y="686">Игры и звонки отдельно</text>
+      <text x="80" y="716">Правила по программам и Wi-Fi</text>
+    </g>
+    <text x="80" y="764" font-size="15" fill="#8E8E98">Каскад до 4 серверов, группы серверов</text>
+  </g>
+  <g>
+    <rect x="426" y="508" width="348" height="290" rx="18" fill="#151518" stroke="#26262c"/>
+    <text x="450" y="548" font-size="15" font-weight="700" fill="#FF3DFF" letter-spacing="1.5">СВОЙ СЕРВЕР</text>
+    <text x="450" y="584" font-size="24" font-weight="600" fill="#F2F2F5">VPS в пару кликов</text>
+    <g font-size="18" fill="#D8D8E0">
+      <text x="450" y="626">12 протоколов по SSH</text>
+      <text x="450" y="656">Пользователи, лимиты, сроки</text>
+      <text x="450" y="686">Нагрузка, трафик, QR-ссылки</text>
+      <text x="450" y="716">Защита SSH, обновления</text>
+    </g>
+    <text x="450" y="764" font-size="15" fill="#8E8E98">Без веб-панели и лишних портов</text>
+  </g>
+  <g>
+    <rect x="796" y="508" width="348" height="290" rx="18" fill="#151518" stroke="#26262c"/>
+    <text x="820" y="548" font-size="15" font-weight="700" fill="#FF3DFF" letter-spacing="1.5">ZAPRET</text>
+    <text x="820" y="584" font-size="24" font-weight="600" fill="#F2F2F5">YouTube и Discord без VPN</text>
+    <g font-size="18" fill="#D8D8E0">
+      <text x="820" y="626">22 стратегии обхода DPI</text>
+      <text x="820" y="656">Автоподбор стратегии</text>
+      <text x="820" y="686">Свои сайты и исключения</text>
+      <text x="820" y="716">Автообновление сборки</text>
+    </g>
+    <text x="820" y="764" font-size="15" fill="#8E8E98">bol-van/zapret, сборка Flowseal</text>
+  </g>
+</svg>
