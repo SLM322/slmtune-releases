@@ -6,7 +6,8 @@
   <a href="../../releases/latest"><b>Скачать SLMtune для Windows</b></a> ·
   <a href="https://github.com/SLM322/slmtune-android">Android</a> ·
   <a href="https://github.com/SLM322/slmtune-ios">iOS</a> ·
-  <a href="https://t.me/SLMtune">Telegram-канал</a>
+  <a href="https://t.me/SLMtune">Telegram-канал</a> ·
+  <a href="https://www.donationalerts.com/r/slm322"><b>Поддержать проект</b></a>
 </p>
 
 **SLMtune** — VPN-клиент для Windows, который открывает почти любую ссылку на сервер и сам решает, что пустить через VPN, а что напрямую. Российские сайты и загрузки идут без VPN, заблокированное и нейросети идут через него, реклама блокируется. Всё в одном окне, без ручной правки конфигов.
@@ -64,5 +65,8 @@
 1. Скачайте `SLMtune.Setup.exe` из [последнего релиза](../../releases/latest).
 2. Запустите и нажмите «Установить». Программе нужны права администратора: они нужны для TUN и kill switch.
 3. Вставьте ссылку на сервер (Ctrl+V) или подписку и нажмите «Подключить».
+
+## Поддержать проект
+SLMtune бесплатный. Если программа помогает, можно поддержать разработку: [donationalerts.com/r/slm322](https://www.donationalerts.com/r/slm322).
 
 Версия 4.1 — бета. Если что-то не работает, пишите в [t.me/SLMtune](https://t.me/SLMtune).
